@@ -1,15 +1,25 @@
+.thumb{
+   
+    cursor: pointer;
+   
+}
+.thumb:hover{
+    opacity: 0.5;
+}
 .describe{
     font-style:  Arial, sans-serif;
     color:rgb(15, 15, 15) ;
-    width: 365px;
+    width: 450px;
     font-size: 20px;
     margin-bottom: 0px;
     display: inline;
-    cursor: pointer;
+    
 }
+
 .text{
     color: rgb(96, 96, 96);
     font-style:  Arial, sans-serif;
     font-size: 15px;
-    display: inline;
+    display: inline-block;
+
 }
