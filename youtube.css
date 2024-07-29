@@ -25,6 +25,10 @@
     vertical-align: top;
 
 }
+info_grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
 
 .Search{
     display: block;
@@ -34,6 +38,7 @@
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
+    background-color: gray;
 }
 .video_img,
 .video_img1{
@@ -49,6 +54,7 @@
 .video_text1{
     display: inline-block;
     font-family: Roboto, Arial, sans-serif;
+    background-color: gray;
 
 }
 .video_preview{
